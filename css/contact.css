@@ -571,15 +571,21 @@
 
 
 @media only screen and (max-width: 767px){
-                    .offset {margin-left: 74px;}
-                    .offset1 {margin-left: 74px;}
-    .offset-one{margin-left: 74px;}
+                    .offset {    margin: auto;
+                                display: inline-flex;}
+                    .offset1 {    margin: auto;
+    display: inline-flex; }
+                    .blah{    margin: auto;
+    display: inline-flex;}
+    .offset-one{    margin: auto;
+    display: inline-flex;}
             .ch-img-1, .ch-img-2, .ch-img-3, .ch-img-4, .ch-img-5, .ch-img-6, .ch-img-7, .ch-img-8, .ch-img-9, .ch-img-10, .ch-img-11, .ch-img-12, .ch-img-13, .ch-img-14, .ch-img-15, .ch-img-16, .ch-img-17, .ch-img-18 {
         width: 250px;
         height: 250px;
     }
-    .blah{margin-left: 74px;}
-.card.hovercard{text-align: left;}
+    .blah{    margin: auto;
+    display: inline-flex;}
+.card.hovercard{text-align: center;;}
 .card.hovercard .info{padding: 4px 35px 10px;}
 .card.hovercard .bottom{padding: 0 80px;}
 
